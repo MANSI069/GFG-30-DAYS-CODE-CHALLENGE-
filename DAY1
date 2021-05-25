@@ -1,0 +1,17 @@
+# https://practice.geeksforgeeks.org/problems/taking-input-java/1/?track=cip-java-intro-var-operator&batchId=197#
+
+class Geeks{
+    
+    // Function to take input using Scanner class
+ static void IOFunction() {
+        Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		
+		while(t-- > 0){
+		    System.out.println(sc.nextInt());
+		    System.out.println(sc.nextFloat());
+		    System.out.println(sc.nextLong());
+		    System.out.println(sc.nextByte());
+		    sc.nextLine();
+		    System.out.println(sc.nextLine());
+
